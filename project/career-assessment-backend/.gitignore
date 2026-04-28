@@ -1,0 +1,25 @@
+# Backend .gitignore
+/target/
+/build/
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.iml
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+.env
+application-local.yml
+
+# Keep Maven wrapper files in source control
+!/.mvn/wrapper/maven-wrapper.jar
+!/mvnw
+!/mvnw.cmd
